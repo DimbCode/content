@@ -405,6 +405,7 @@ body {
 	cursor: pointer;
 }
 .portfolio-title {
+    width: 95%;
     font-weight: 900;
     font-size: 48px;
     line-height: 80px;
@@ -435,9 +436,6 @@ body {
   }
   .sentence-container-inner{
     margin: 0 20px;
-  }
-  .portfolio-title{
-    margin-left: 50px;
   }
   .info-sell-pictures-img{
     width: 150px;
