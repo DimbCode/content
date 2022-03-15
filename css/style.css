@@ -64,7 +64,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 .option {
     width: 100%;
