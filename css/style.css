@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@300;700;900&display=swap');
 .intro {
     width: 100%;
-    height: 430px;
-    padding-left: 280px;
-    padding-top: 75px;
+    padding: 75px 280px;
     background: url(../img/intro.png) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
