@@ -77,6 +77,9 @@ body {
     font-family: inherit;
     margin-top: 25px;
 }
+.option, .info-sell-desc{
+  max-width: 1140px;
+}
 .option-inner {
     width: 33%;
     display: flex;
