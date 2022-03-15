@@ -444,7 +444,8 @@ body {
 	background:none;
 	border-radius:50px;
 	border:1px solid #93C93E;
-    margin: 40px;
+        margin: 40px;
+	cursor: pointer;
 }
 .portfolio-title {
     width: 100%;
