@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@300;700;900&display=swap');
+html {
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins';
+}
+.intro {
+    width: 100%;
+    height: 430px;
+    padding-left: 280px;
+    padding-top: 75px;
+    background: url(../img/intro.png) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.intro-title {
+    width: 715px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 80px;
+    color: #FFFFFF;
+    font-family: inherit;
+}
+.intro-text {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    font-family: inherit;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.intro-btn {
+    width: 300px;
+    height: 63px;
+    background-color: #93C93E;
+    color: #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 30px;
+    transition: all .3s;
+}
+.intro-btn:hover {
+    background-color: #76a130;
+    color: #e4e2e2;
+}
+.main {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 280px;
+}
+.option {
+    width: 100%;
+    display: flex;
+    font-family: inherit;
+    margin-top: 25px;
+}
+.option-inner {
+    width: 33%;
+    display: flex;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option-inner-img {
+    margin-right: 26px;
+    width: 150px;
+    height: 80px;
+}
+.option-inner-text {
+    width: 100%;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.info-sell-desc {
+    width: 100%;
+    margin: 45px 0px;
+    font-family: 'Poppins';
+}
+.info-sell-desc-title {
+    width: 100%;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 80px;
+    color: #93C93E;
+}
+.info-sell-desc-text {
+    width: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #515151;
+}
+.info-sell {
+    width: 95%;
+    height: 680px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    padding: 37px 32px;
+    margin-bottom: 40px;
+}
+.info-sell-container {
+    display: flex;
+}
+.info-sell-pictures-container {
+    display: flex;
+    flex-direction: column;
+}
+.info-sell-pictures {
+    display: flex;
+}
+.info-sell-pictures-inner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+.info-sell-pictures-img {
+    margin-bottom: 14px;
+}
+.info-sell-pictures-text {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+.info-sell-extra {
+    margin-left: 56px;
+}
+.info-sell-extra-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+}
+.info-sell-extra-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    color: #515151;
+    margin-top: 35px;
+}
+.info-sell-extra-terms {
+    height: 110px;
+    display: flex;
+    margin-top: 40px;
+}
+.info-sell-extra-terms-hr {
+    width: 5px;
+    height: 110px;
+    background-color: #93C93E;
+    border: none;
+}
+.info-sell-extra-terms-rent-container {
+    display: flex;
+}
+.info-sell-extra-terms-rent-container-inner {
+    margin-right: 9px;
+    margin-left: 12px;
+}
+.info-sell-extra-terms-rent-container-inner:last-child {
+    margin-left: 0px;
+}
+.info-sell-extra-terms-rent-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #515151;
+    margin-left: 24px;
+    margin-right: 150px;
+}
+.info-sell-extra-terms-rent-price {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+}
+.info-sell-extra-terms-sale {
+    margin-left: 30px;
+}
+.info-sell-extra-terms-sale-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #515151;
+}
+.info-sell-extra-terms-sale-price {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    margin-top: 9px;
+}
+.info-sell-extra-btn {
+    display: flex;
+    margin-top: 44px;
+}
+.info-sell-extra-btn-rent {
+    width: 250px;
+    height: 63px;
+    background-color:  #93C93E;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 10px;
+    transition: all .3s;
+}
+.info-sell-extra-btn-rent:hover {
+    background-color: #76a130;
+    color: #e4e2e2;
+}
+.info-sell-extra-btn-buy {
+    width: 250px;
+    height: 63px;
+    border-radius: 3px;
+    border: solid 1px #93C93E;
+    color: #93C93E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    transition: all .3s;
+}
+.info-sell-extra-btn-buy:hover {
+    background-color: #76a130;
+    color: #e4e2e2;
+}
+.info-sell-desc-text {
+    margin-top: 35px;
+}
+.accessories-desc {
+    width: 100%;
+    margin: 45px 0px;
+    font-family: 'Poppins';
+}
+.accessories-desc-title {
+    width: 100%;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 80px;
+    color: #93C93E;
+}
+.accessories-desc-text {
+    width: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #515151;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.accessories {
+    width: 95%;
+    height: 570px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    padding: 37px 32px;
+    margin-bottom: 100px;
+}
+.sentence {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.sentence-title {
+    width: 100%;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 80px;
+    color: #93C93E;
+}
+.sentence-container {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.sentence-container-inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 45px;
+}
+.sentence-container-inner-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+}
+.sentence-container-inner-text {
+    width: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    color: #515151;
+}
+.organization {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.organization-title {
+    width: 100%;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 80px;
+    color: #93C93E;
+}
+.organization-container {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.organization-container-inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 35px;
+}
+.organization-container-inner-img {
+    width: 210px;
+    height: 160px;
+    margin-bottom: 35px;
+}
+.organization-container-inner-text {
+    width: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 18px;
+    color: #515151;
+}
+.slider-out{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 260px;
+}
+.slaider-flex {
+	display:flex;
+	overflow: hidden;
+    position:relative;
+	left:0;
+	transition:0.5s;
+}
+.slaider-wrap {
+	overflow:hidden;
+}
+.slaider__img {
+	margin-right:25px;
+}
+.slaider__btn {
+	height:50px;
+	padding: 14px 12px;
+	background:none;
+	border-radius:50px;
+	border:1px solid #93C93E;
+    margin: 40px;
+}
+.portfolio-title {
+    width: 100%;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 80px;
+    color: #93C93E;
+    margin-top: 85px;
+    margin-bottom: 60px;
+}
