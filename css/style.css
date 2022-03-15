@@ -187,8 +187,9 @@ body {
 .info-sell-extra-terms-rent-price {
     font-family: 'PT Sans';
     font-weight: 700;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 50px;
+    white-space: nowrap;
 }
 .info-sell-extra-terms-sale {
     margin-left: 30px;
@@ -202,9 +203,11 @@ body {
 .info-sell-extra-terms-sale-price {
     font-family: 'PT Sans';
     font-weight: 700;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 50px;
     margin-top: 9px;
+    white-space: nowrap;
+    margin-right: 5px
 }
 .info-sell-extra-btn {
     display: flex;
