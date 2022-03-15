@@ -1,6 +1,6 @@
 const sliderWrap = document.querySelector(".slaider-flex");
-let slideStyle = getComputedStyle(slider);
-let slideWrapStyle = getComputedStyle(sliderWrap);
+const slider = document.querySelector(".slaider__img");
+const slides = document.querySelectorAll(".slaider__img");
 let index = 0;
 let max = slides.length;
 
