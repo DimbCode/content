@@ -1,47 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@300;700;900&display=swap');
-@media screen and (max-width: 1200px){
-  .organization-container-inner{
-    width: auto;
-    margin: 12px;
-  }
-  .organization-container-inner-img{
-    width: 130px;
-  }
-  .intro{
-    padding-left: 170px;
-  }
-  .main{
-    padding: 0 10px;
-  }
-  .option-inner{
-    width: auto;
-    margin: 10px;
-  }
-  .info-sell-desc-title{
-    line-height: 35px;
-  }
-  .sentence-container-inner{
-    margin: 0 20px;
-  }
-  .portfolio-title{
-    margin-left: 50px;
-  }
-  .info-sell-pictures-img{
-    width: 150px;
-  }
-  .info-sell-extra-terms-sale{
-    margin-left: 25px;
-  }
-  .info-sell-pictures-img{
-    width: 130px
-  }
-  .info-sell{
-    height: auto;
-  }
-  .info-sell-pictures-inner > .info-sell-pictures-img{
-    width: 75px;
-  }
-}
 html {
     box-sizing: border-box;
 }
@@ -455,4 +412,47 @@ body {
     color: #93C93E;
     margin-top: 85px;
     margin-bottom: 60px;
+}
+@media screen and (max-width: 1200px){
+  .organization-container-inner{
+    width: auto;
+    margin: 12px;
+  }
+  .organization-container-inner-img{
+    width: 130px;
+  }
+  .intro{
+    padding-left: 170px;
+  }
+  .main{
+    padding: 0 10px;
+  }
+  .option-inner{
+    width: auto;
+    margin: 10px;
+  }
+  .info-sell-desc-title{
+    line-height: 35px;
+  }
+  .sentence-container-inner{
+    margin: 0 20px;
+  }
+  .portfolio-title{
+    margin-left: 50px;
+  }
+  .info-sell-pictures-img{
+    width: 150px;
+  }
+  .info-sell-extra-terms-sale{
+    margin-left: 25px;
+  }
+  .info-sell-pictures-img{
+    width: 130px
+  }
+  .info-sell{
+    height: auto;
+  }
+  .info-sell-pictures-inner > .info-sell-pictures-img{
+    width: 75px;
+  }
 }
