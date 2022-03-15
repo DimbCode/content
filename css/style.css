@@ -143,8 +143,9 @@ body {
     margin-left: 56px;
 }
 .info-sell-extra-title {
+    width: 90%;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 40px;
 }
 .info-sell-extra-text {
