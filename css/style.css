@@ -163,6 +163,8 @@
     height: 110px;
     background-color: #93C93E;
     border: none;
+    margin-left: 0px;
+    margin-right: 30px;
 }
 .info-sell-extra-terms-rent-container {
     display: flex;
@@ -189,6 +191,9 @@
     line-height: 50px;
     white-space: nowrap;
     color: #000;
+}
+..info-sell-extra-terms-desc {
+    font-size: 13px !important;
 }
 .info-sell-extra-terms-sale {
     margin-left: 30px;
