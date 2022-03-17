@@ -26,6 +26,7 @@ function slide(num) {
    });
 }
 
+
 for (let el of document.querySelectorAll(".info-sell-pictures-inner > .info-sell-pictures-img")) {
     el.addEventListener('click', (e) => changePicture(e));
 }
