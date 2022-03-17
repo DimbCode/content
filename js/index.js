@@ -12,7 +12,7 @@ window.onload = window.onresize = () => {
  sliderWrap.style.transitionDuration = ".5s";
  sliderWrap.offsetHeight;
  let elsFull = Math.floor(currentWidth / (slides[0].scrollWidth + 25));
- max = slides.length - elsFull;
+ max = slides.length - elsFull - 1;
  sliderWrap.style.width = (elsFull * (slides[0].scrollWidth + 25) - 25) + "px";
 }
 
