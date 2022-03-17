@@ -410,6 +410,9 @@
     margin-top: 85px;
     margin-bottom: 60px;
 }
+.info-sell-pictures-inner > .info-sell-pictures-img{
+  width: 150px;
+}
 @media screen and (max-width: 1200px){
   .organization-container-inner{
     width: auto;
