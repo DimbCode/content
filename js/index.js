@@ -15,7 +15,6 @@ window.onload = window.onresize = () => {
  max = slides.length - elsFull - 1;
  sliderWrap.style.width = (elsFull * (slides[0].scrollWidth + 25) - 25) + "px";
 }
-
 function slide(num) {
  if(num > 0 && index >= max){
   index = 0;
