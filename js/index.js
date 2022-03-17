@@ -32,7 +32,7 @@ for (let el of document.querySelectorAll(".info-sell-pictures-inner > .info-sell
 
 function changePicture(e){
   let target = e.target;
-  let childNodes = e.parentNode.parentNode.childNodes;
+  let childNodes = target.parentNode.parentNode.childNodes;
   let toReplace = childNodes[0] instanceof Text ? imgContainer[1] : imgContainer[0];
   toReplace.src = target.src;
 }
