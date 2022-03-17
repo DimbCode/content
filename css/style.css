@@ -97,6 +97,9 @@
     line-height: 80px;
     color: #93C93E;
 }
+.info-sell-extra-terms-rent-desc{
+  font-size: 13px !important;
+}
 .info-sell-desc-text {
     width: 100%;
     font-weight: 300;
@@ -192,7 +195,7 @@
     white-space: nowrap;
     color: #000;
 }
-..info-sell-extra-terms-desc {
+.info-sell-extra-terms-desc {
     font-size: 13px !important;
 }
 .info-sell-extra-terms-sale {
