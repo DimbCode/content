@@ -30,7 +30,6 @@ function slide(num) {
 for (let el of document.querySelectorAll(".info-sell-pictures-inner > .info-sell-pictures-img")) {
     el.addEventListener('click', (e) => changePicture(e));
 }
-
 function changePicture(e){
   let target = e.target;
   let childNodes = target.parentNode.parentNode.childNodes;
