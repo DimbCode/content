@@ -33,5 +33,5 @@ function changePicture(e){
   let target = e.target;
   let childNodes = target.parentNode.parentNode.childNodes;
   let toReplace = childNodes[0] instanceof Text ? childNodes[1] : childNodes[0];
-  toReplace.src = target.src;
+  toReplace.style.backgroundImage = target.style.backgroundImage;
 }
