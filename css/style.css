@@ -131,6 +131,9 @@
 }
 .info-sell-pictures-img {
     width: 330px;
+    height: 407px;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-bottom: 14px;
 }
 .info-sell-pictures-text {
@@ -413,6 +416,8 @@
 }
 .info-sell-pictures-inner > .info-sell-pictures-img{
   width: 150px;
+  height: 150px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1200px){
   .organization-container-inner{
@@ -452,6 +457,7 @@
   }
   .info-sell-pictures-inner > .info-sell-pictures-img{
     width: 75px;
+    height: 75px;
   }
 }
 
