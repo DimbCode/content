@@ -97,6 +97,26 @@
     line-height: 80px;
     color: #93C93E;
 }
+.info-sell-desc-btn {
+    width: 350px;
+    height: 35px;
+    background-color:  #93C93E;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 20px;
+    transition: all .3s;
+}
+.info-sell-desc-btn:hover {
+    background-color: #76a130;
+    color: #e4e2e2;
+}
+}
 .info-sell-extra-terms-rent-desc{
   font-size: 13px !important;
 }
