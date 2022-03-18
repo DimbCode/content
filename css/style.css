@@ -450,7 +450,8 @@
     margin-left: 25px;
   }
   .info-sell-pictures-img{
-    width: 130px
+    width: 130px;
+    height: 164px;
   }
   .info-sell{
     height: auto;
