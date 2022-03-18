@@ -98,7 +98,7 @@
     color: #93C93E;
 }
 .info-sell-desc-btn {
-    width: 350px;
+    width: 460px;
     height: 35px;
     background-color:  #93C93E;
     border-radius: 3px;
@@ -109,7 +109,7 @@
     text-decoration: none;
     font-family: 'PT Sans';
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     transition: all .3s;
 }
 .info-sell-desc-btn:hover {
