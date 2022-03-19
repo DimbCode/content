@@ -761,15 +761,7 @@
 	    margin-right: 0px
 	}
 }
-@media screen and (max-width: 398px) {
-	.organization {
-		width: 95%;
-	}
-       .organization-container-inner-img {
-	    width: 140px;
-	}
-}
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 460px) {
 	.organization-container {
 		width: 100%;
 		display: flex;
@@ -783,3 +775,4 @@
 	    margin-right: 0px
 	}
 }
+
