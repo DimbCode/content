@@ -705,6 +705,9 @@
         margin-bottom:0 !important;
     }
     .info-sell-extra-terms-rent-text {
+        margin-bottom:0;
+    }
+    .info-sell-extra-terms-rent-container-inner, .info-sell-extra-terms-rent-text {
         margin-left:0;
     }
 }
