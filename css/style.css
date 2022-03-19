@@ -704,6 +704,9 @@
     .info-sell-extra-terms-rent-price {
         margin-bottom:0 !important;
     }
+    .info-sell-extra-terms-rent-text {
+        margin-left:0;
+    }
 }
 @media screen and (max-width: 610px) {
     .slaider__btn {
