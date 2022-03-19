@@ -608,6 +608,9 @@
     width: 120px;
     margin-bottom: 8px;
     }
+    .sentence-container-inner-text {
+	  font-size: 14px !important;
+    }
 }
 @media screen and (max-width: 900px) {
     .info-sell {
