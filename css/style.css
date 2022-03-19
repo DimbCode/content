@@ -698,6 +698,27 @@
         margin-top:0;
     }
 }
+@media screen and (max-width: 660px) {
+    .accessories-desc {
+        width:95%;
+        margin:0 auto;
+    }
+    .accessories-desc-title {
+        line-height: 30px;
+        font-size: 24px;
+    }
+    .accessories-desc-text {
+        font-size: 14px;
+    }
+    .info-sell-extra-terms-rent-text, .info-sell-extra-terms-sale-text,
+    .info-sell-extra-terms-rent-desc {
+        font-size: 10px;
+    }
+    .info-sell-extra-terms-rent-price, .info-sell-extra-terms-sale-price {
+        font-size: 21px;
+        margin-top:0;
+    }
+}
 @media screen and (max-width: 610px) {
     .slaider__btn {
         display: none;
