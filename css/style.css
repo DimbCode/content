@@ -401,12 +401,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 260px;
+    margin-bottom: 50px;
 }
 .slaider-flex {
 	display:flex;
 	overflow: hidden;
-    position:relative;
+        position:relative;
 	left:0;
 	transition:0.5s;
 }
