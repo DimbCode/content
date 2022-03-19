@@ -580,6 +580,18 @@
     line-height: 18px;
     }
 }
+@media screen and (max-width: 706px) {
+     .organization-container-inner-img {
+    width: 130px;
+    margin-bottom: 14px;
+    }
+}
+@media screen and (max-width: 675px) {
+     .organization-container-inner-img {
+    width: 120px;
+    margin-bottom: 8px;
+    }
+}
 @media screen and (max-width: 900px) {
     .info-sell {
         width:100%;
