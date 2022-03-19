@@ -711,6 +711,7 @@
     }
     .info-sell-extra-text {
         font-size: 15px !important;
+        line-height:18px !important;
         height:auto !important;
     }
     .info-sell-extra-terms-rent-price {
