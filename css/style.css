@@ -617,16 +617,23 @@
 	 font-size: 14px !important;
      }
 }
+
 @media screen and (max-width: 635px) {
-     .organization-container-inner-text {
+	.organization-container-inner-text {
 	 font-size: 12px !important;
      }
-}
-@media screen and (max-width: 635px) {
        .organization-container-inner-img {
 	    width: 110px;
 	    margin-bottom: 7px;
-	    margin: 0px
+	    margin: 4px;
+	    margin-right: 0px
+	}
+}
+@media screen and (max-width: 500px) {
+       .organization-container-inner {
+	    margin: 4px;
+	    margin-right: 0px
+	}
 }
 @media screen and (max-width: 900px) {
     .info-sell {
