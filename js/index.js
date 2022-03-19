@@ -1,6 +1,7 @@
 const sliderWrap = document.querySelector(".slaider-flex");
 const slider = document.querySelector(".slaider__img");
 const slides = document.querySelectorAll(".slaider__img");
+const sliderBtn = document.querySelectorAll(".slider__pag-btn");
 let index = 0;
 let max = slides.length;
 
@@ -17,12 +18,29 @@ window.onload = window.onresize = () => {
 }
 function slide(num) {
  if(num > 0 && index >= max){
-  index = 0;
- }else if(num > 0 || index > 0) index += num;
- sliderWrap.scrollTo({
-  left: index * (slides[0].scrollWidth + 25), 
-  behavior: 'smooth'
-   });
+  	index = 0;
+ }	else if(num > 0 || index > 0) index += num;
+ 	sliderWrap.scrollTo({
+  	left: index * (slides[0].scrollWidth + 25),
+ 	behavior: 'smooth'
+   	});
+}
+function slideBtn(num) {
+	if(num > 0 && index >= max){
+  	index = 0;
+  	setActive(sliderBtn[index], sliderBtn, "slider__pag-btn-active");
+ }	else if(num > 0 || index > 0) index = num;
+ 	setActive(sliderBtn[index], sliderBtn, "slider__pag-btn-active");
+ 	sliderWrap.scrollTo({
+  	left: index * (slides[0].scrollWidth + 25),
+ 	behavior: 'smooth'
+   	});
+}
+function setActive(el, elArr, cl) {
+	elArr.forEach((item) => {
+		item.classList.remove(cl);
+	});
+	el.classList.add(cl);
 }
 
 
@@ -30,8 +48,8 @@ for (let el of document.querySelectorAll(".info-sell-pictures-inner > .info-sell
     el.addEventListener('click', (e) => changePicture(e));
 }
 function changePicture(e){
-  let target = e.target;
-  let childNodes = target.parentNode.parentNode.childNodes;
-  let toReplace = childNodes[0] instanceof Text ? childNodes[1] : childNodes[0];
-  toReplace.style.backgroundImage = target.style.backgroundImage;
+	let target = e.target;
+	let childNodes = target.parentNode.parentNode.childNodes;
+	let toReplace = childNodes[0] instanceof Text ? childNodes[1] : childNodes[0];
+	toReplace.style.backgroundImage = target.style.backgroundImage;
 }
