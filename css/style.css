@@ -443,6 +443,7 @@
     list-style-type: none;
     display:flex;
     display:none;
+    padding-left:0;
 }
 .slider__pag-btn {
     width:13px;
