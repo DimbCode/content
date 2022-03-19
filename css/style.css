@@ -603,7 +603,7 @@
     margin-bottom: 14px;
     }
 }
-@media screen and (max-width: 675px) {
+@media screen and (max-width: 660px) {
      .organization-container-inner-img {
     width: 120px;
     margin-bottom: 8px;
@@ -611,6 +611,14 @@
     .sentence-container-inner-text {
 	  font-size: 14px !important;
     }
+    .organization-container-inner-text {
+	 font-size: 14px !important;
+     }
+}
+@media screen and (max-width: 635px) {
+     .organization-container-inner-text {
+	 font-size: 12px !important;
+     }
 }
 @media screen and (max-width: 900px) {
     .info-sell {
