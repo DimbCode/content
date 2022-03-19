@@ -508,6 +508,7 @@
 	}
 	.info-sell-desc-title {
 	    padding: 0 15px;
+	    line-height: 30px;
 	}
 	.info-sell-desc-btn {
 	   width: 90%;
