@@ -546,3 +546,70 @@
 	    margin-left: 30px;
 	}
 }
+@media screen and (max-width: 900px) {
+    .info-sell {
+        width:100%;
+    }
+    .info-sell-pictures {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-sell-pictures-inner {
+        display:flex;
+        flex-direction: row;
+        margin-left:0;
+    }
+    .info-sell-pictures-img {
+        margin-right:12px;
+    }
+    .info-sell-pictures-img {
+        height:154px;
+        width:229px;
+    }
+}
+@media screen and (max-width: 870px) {
+    .info-sell-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info-sell-extra {
+        margin-left:0;
+    }
+    .info-sell-pictures-text {
+        margin:20px 0 20px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .info-sell {
+        height:auto;
+        padding:16px 16px 43px 16px;
+    }
+    .info-sell-extra-terms-rent-container-inner, .info-sell-extra-terms-rent-text {
+        margin-left:0;
+    }
+    .info-sell-extra-terms {
+        flex-direction: column;
+        height:auto;
+    }
+    .info-sell-extra-terms-sale, .info-sell-extra-terms-rent {
+        margin-left: 15px;
+    }
+    .info-sell-extra-terms-hr {
+        position:absolute;
+    }
+    .info-sell-extra-btn {
+        flex-direction: column;
+    }
+    .info-sell-extra-btn-rent {
+        margin:0 0 13px;
+    }
+    .info-sell-extra-btn-rent, .info-sell-extra-btn-buy {
+        width: 279px;
+    }
+    .info-sell-extra-terms-sale {
+        margin-top:19px;
+    }
+    .info-sell-extra-title {
+        font-size:22px;
+    }
+}
