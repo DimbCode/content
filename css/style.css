@@ -750,7 +750,8 @@
         font-size:22px;
     }
     .info-sell-extra-terms-hr {
-        height:95px;
+        height:80px;
+        margin:0;
     }
 }
 @media screen and (max-width: 635px) {
