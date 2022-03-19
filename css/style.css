@@ -716,7 +716,7 @@
     .info-sell-extra-terms-rent-price {
         margin-bottom:0 !important;
     }
-    .info-sell-extra-terms-rent-text {
+    .info-sell-extra-terms-rent-text, .info-sell-extra-terms-sale-text {
         margin-bottom:0;
     }
     .info-sell-extra-terms-rent-container-inner, .info-sell-extra-terms-rent-text {
