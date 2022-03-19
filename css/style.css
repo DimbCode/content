@@ -510,7 +510,8 @@
 	    padding: 0 15px;
 	}
 	.info-sell-desc-btn {
-	    padding: 0 10px;
+	   width: 90%;
+           font-size: 14px;
 	}
 	.info-sell-desc-text {
 	    margin-left: 10px;
