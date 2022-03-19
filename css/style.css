@@ -640,7 +640,7 @@
         font-size: 17px;
     }
     .info-sell-extra-text {
-        margin-top:20px;
+        margin:20px 0 0 0;
     }
     .info-sell-extra-terms-rent-container-inner, .info-sell-extra-terms-rent-text {
         margin-left:0;
