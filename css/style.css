@@ -683,40 +683,25 @@
         margin:0 auto;
     }
     .accessories-desc-title {
-        line-height: 30px;
-        font-size: 24px;
+        line-height: 30px !important;
+        font-size: 24px !important;
     }
     .accessories-desc-text {
-        font-size: 14px;
+        font-size: 14px !important;
     }
     .info-sell-extra-terms-rent-text, .info-sell-extra-terms-sale-text,
     .info-sell-extra-terms-rent-desc {
-        font-size: 10px;
+        font-size: 10px !important;
     }
     .info-sell-extra-terms-rent-price, .info-sell-extra-terms-sale-price {
-        font-size: 21px;
+        font-size: 21px !important;
         margin-top:0;
     }
-}
-@media screen and (max-width: 660px) {
-    .accessories-desc {
-        width:95%;
-        margin:0 auto;
+    .info-sell-extra-text {
+        font-size: 15px !important;
     }
-    .accessories-desc-title {
-        line-height: 30px;
-        font-size: 24px;
-    }
-    .accessories-desc-text {
-        font-size: 14px;
-    }
-    .info-sell-extra-terms-rent-text, .info-sell-extra-terms-sale-text,
-    .info-sell-extra-terms-rent-desc {
-        font-size: 10px;
-    }
-    .info-sell-extra-terms-rent-price, .info-sell-extra-terms-sale-price {
-        font-size: 21px;
-        margin-top:0;
+    .info-sell-extra-terms-rent-price {
+        margin-bottom:0;
     }
 }
 @media screen and (max-width: 610px) {
