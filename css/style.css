@@ -584,6 +584,10 @@
     .info-sell {
         width:100%;
     }
+    .info-accessories {
+        width:100%;
+        height:auto;
+    }
     .info-sell-pictures {
         display: flex;
         flex-direction: column;
@@ -613,10 +617,30 @@
         margin:20px 0 20px;
     }
 }
+@media screen and (max-width: 768px) {
+    .accessories-desc {
+        width:95%;
+        margin:0 auto;
+    }
+    .accessories-desc-title {
+        line-height: 30px;
+        font-size: 24px;
+    }
+    .accessories-desc-text {
+        font-size: 14px;
+    }
+}
 @media screen and (max-width: 560px) {
     .info-sell {
         height:auto;
         padding:16px 16px 43px 16px;
+    }
+    .info-sell-pictures-text {
+        margin:0 0 21px 0;
+        font-size: 17px;
+    }
+    .info-sell-extra-text {
+        margin-top:20px;
     }
     .info-sell-extra-terms-rent-container-inner, .info-sell-extra-terms-rent-text {
         margin-left:0;
