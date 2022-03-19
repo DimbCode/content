@@ -481,6 +481,21 @@
     height: 75px;
   }
 }
+@media screen and (max-width: 950px){
+  .intro{
+    padding: 0;
+    background-size: 101%;
+    background-position: initial;
+    padding-top: 24%;
+  }
+  .intro-content{
+    background-color: #B22025;
+    padding: 25px;
+  }
+  .intro-title{
+     width: auto;
+  }
+}
 @media screen and (max-width: 768px) {
 	.option {
 	   flex-direction: column;
