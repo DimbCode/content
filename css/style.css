@@ -595,6 +595,9 @@
     font-size: 14px;
     line-height: 18px;
     }
+   .portfolio-title {
+	font-size: 24px !important;
+    }
 }
 @media screen and (max-width: 706px) {
      .organization-container-inner-img {
@@ -630,10 +633,11 @@
 	}
 }
 @media screen and (max-width: 500px) {
-       .organization-container-inner {
+	.organization-container-inner {
 	    margin: 4px;
-	    margin-right: 0px
+	    margin-right: 0px;
 	}
+	
 }
 @media screen and (max-width: 900px) {
     .info-sell {
