@@ -619,6 +619,11 @@
 	 font-size: 12px !important;
      }
 }
+@media screen and (max-width: 635px) {
+       .organization-container-inner-img {
+	    width: 110px;
+	    margin-bottom: 7px;
+}
 @media screen and (max-width: 900px) {
     .info-sell {
         width:100%;
