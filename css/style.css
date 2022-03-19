@@ -700,6 +700,7 @@
     }
     .info-sell-extra-text {
         font-size: 15px !important;
+        height:auto !important;
     }
     .info-sell-extra-terms-rent-price {
         margin-bottom:0 !important;
