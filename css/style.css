@@ -603,6 +603,9 @@
     }
 }
 @media screen and (max-width: 660px) {
+	.organization-container-inner {
+    margin-right: 20px;
+    }
      .organization-container-inner-img {
     width: 120px;
     margin-bottom: 8px;
@@ -621,8 +624,9 @@
 }
 @media screen and (max-width: 635px) {
        .organization-container-inner-img {
-	    width: 105px;
+	    width: 110px;
 	    margin-bottom: 7px;
+	    margin: 0px
 }
 @media screen and (max-width: 900px) {
     .info-sell {
