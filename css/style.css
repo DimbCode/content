@@ -623,14 +623,25 @@
 }
 
 @media screen and (max-width: 635px) {
+	.organization {
+		width: 95%;
+	}
 	.organization-container-inner-text {
 	 font-size: 12px !important;
      }
        .organization-container-inner-img {
-	    width: 110px;
+	    width: 160px;
 	    margin-bottom: 7px;
 	    margin: 4px;
 	    margin-right: 0px
+	}
+}
+@media screen and (max-width: 398px) {
+	.organization {
+		width: 95%;
+	}
+       .organization-container-inner-img {
+	    width: 140px;
 	}
 }
 @media screen and (max-width: 502px) {
