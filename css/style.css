@@ -749,6 +749,9 @@
     .info-sell-extra-title {
         font-size:22px;
     }
+    .info-sell-extra-terms-hr {
+        height:95px;
+    }
 }
 @media screen and (max-width: 635px) {
 	.organization {
