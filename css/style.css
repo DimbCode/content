@@ -519,4 +519,30 @@
 	    margin-left: 10px;
 	    font-size 14px;
 	}
+	.sentence {
+	    width: 100%;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    text-align: center;
+	}
+	.sentence-container {
+	    width: 100%;
+	    display: flex;
+	    margin-top: 30px;
+	    flex-direction: column;
+	}
+	.sentence-container-inner {
+	    margin: 0 20px;
+	    display: flex;
+	    flex-direction: row;
+	    text-align: justify;
+	}
+	.sentence-container-inner-img {
+	    width: 63px;
+	    height: 63px;
+	}
+	.sentence-container-inner-text {
+	    margin-left: 30px;
+	}
 }
