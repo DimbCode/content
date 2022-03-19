@@ -679,8 +679,8 @@
 }
 @media screen and (max-width: 768px) {
     .accessories-desc {
-        width:95%;
-        margin:0 auto;
+        width:95% !important;
+        margin:0 auto !important;
     }
     .accessories-desc-title {
         line-height: 30px !important;
@@ -688,6 +688,7 @@
     }
     .accessories-desc-text {
         font-size: 14px !important;
+        line-height:21px !important;
     }
     .info-sell-extra-terms-rent-text, .info-sell-extra-terms-sale-text,
     .info-sell-extra-terms-rent-desc {
@@ -695,13 +696,13 @@
     }
     .info-sell-extra-terms-rent-price, .info-sell-extra-terms-sale-price {
         font-size: 21px !important;
-        margin-top:0;
+        margin-top:0 !important;
     }
     .info-sell-extra-text {
         font-size: 15px !important;
     }
     .info-sell-extra-terms-rent-price {
-        margin-bottom:0;
+        margin-bottom:0 !important;
     }
 }
 @media screen and (max-width: 610px) {
