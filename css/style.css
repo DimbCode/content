@@ -637,7 +637,7 @@
     display: flex;
     margin-right: 50px;
     margin-bottom: 57px;
-}
+    }
    .organization-container-inner-img {
     width: 150px;
     margin-bottom: 19px;
@@ -645,4 +645,5 @@
     .organization-container-inner-text {
     font-size: 14px;
     line-height: 18px;
+    }
 }
